@@ -611,6 +611,7 @@ namespace Simulator
             this.viewport_panel.Name = "viewport_panel";
             this.viewport_panel.Size = new System.Drawing.Size(512, 524);
             this.viewport_panel.TabIndex = 0;
+            //this.viewport_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.viewport_panel_Paint);
             this.viewport_panel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.viewport_panel_MouseDown);
             // 
             // label5
@@ -1755,6 +1756,7 @@ namespace Simulator
         {
             setHook(hookflg.Checked);
         }
+
     }
 }
 
